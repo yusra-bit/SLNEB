@@ -1,0 +1,174 @@
+/*-------------------------------------- student hub ----------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Poppins', sans-serif;
+} 
+
+.header{
+    min-height: 25vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(226, 172, 158, 0.7),rgba(226, 172, 158, 0.7)), 
+    url(images/librarybooks.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+   
+    
+
+}  
+h1
+{
+    font-size: 34px;
+    margin-left: 20px;
+   font-weight: 700;
+   padding-top: 50px;
+   padding-bottom: 0px; 
+   padding-left: 20px;
+   color: #fff;
+
+   
+
+} 
+
+nav
+{
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links
+{
+    flex: 1;
+    text-align: right;
+} 
+
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+} 
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+} 
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;  
+    transition: 0.5s;
+    
+}  
+
+.nav-links ul li:hover::after{
+    width: 100%;
+} 
+
+/*-------------------------------------- ende her ----------------------------------------------------------*/ 
+
+/*-------------------------------------- test yourself ----------------------------------------------------------*/
+
+.test
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 100px;
+}
+
+h2
+{
+    font-size: 36px;
+    font-weight: 600;
+}  
+.test-yo-col
+{
+    flex-basis: 31%;
+    background: #fff3f3; 
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3
+{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+} 
+
+.test-yo-col:hover
+{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+} 
+
+/******************button in the test your self part************/
+
+.hero-btn
+{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    border: 1px solid black;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    border-radius: 10px;
+} 
+
+.hero-btn:hover
+{
+    border:1px solid #ec323298;
+    background:#ec323298;
+    transition: 1s;
+}  
+/*-------------------------------------- ende her ----------------------------------------------------------*/
+
+/*-------------------------------------- footer ----------------------------------------------------------*/
+
+.footer
+{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+} 
+
+.footer h4
+{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.icons .fab
+{
+    color: #f0a39e;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-heart
+{
+    color: #f44336;
+}
+
+/*-------------------------------------- ende her ----------------------------------------------------------*/
+
+
+
+
